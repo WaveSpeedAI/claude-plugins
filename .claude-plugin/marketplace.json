@@ -1,0 +1,20 @@
+{
+  "name": "wavespeed",
+  "owner": {
+    "name": "WaveSpeedAI",
+    "email": "market@wavespeed.ai"
+  },
+  "metadata": {
+    "description": "Official WaveSpeed plugins: AI media generation for coding agents",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "wavespeed",
+      "source": "./plugins/wavespeed",
+      "description": "Generate and edit AI media (image, video, audio, 3D) via the wavespeed CLI: live catalog search, schema introspection, local-file upload, price quotes.",
+      "version": "1.0.0",
+      "strict": true
+    }
+  ]
+}

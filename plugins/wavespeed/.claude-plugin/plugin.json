@@ -1,0 +1,19 @@
+{
+  "name": "wavespeed",
+  "description": "Generate and edit AI media (image, video, audio, 3D) via the WaveSpeed platform's open-source CLI: live catalog search, per-model schema introspection, local-file upload, price quotes before running.",
+  "version": "1.0.0",
+  "author": {
+    "name": "WaveSpeedAI",
+    "email": "market@wavespeed.ai"
+  },
+  "homepage": "https://wavespeed.ai",
+  "repository": "https://github.com/WaveSpeedAI/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "image-generation",
+    "video-generation",
+    "audio-generation",
+    "wavespeed",
+    "media"
+  ]
+}
