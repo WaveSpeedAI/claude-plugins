@@ -28,6 +28,15 @@ Requires the CLI (`npm install -g @wavespeed/cli`) and a WaveSpeed API key (`wav
 
 Prefer an MCP server over a CLI skill? Use [`@wavespeed/mcp`](https://github.com/WaveSpeedAI/mcp-server) instead: `claude mcp add wavespeed -- npx -y @wavespeed/mcp`.
 
+## Also works in GitHub Copilot CLI and Qwen Code
+
+Both read this marketplace directly, no separate package:
+
+```
+copilot plugin marketplace add WaveSpeedAI/claude-plugins      # then /plugin install wavespeed@wavespeed
+qwen extensions install WaveSpeedAI/claude-plugins:wavespeed
+```
+
 ## Same skill, other agents
 
 - Claude Code / Cursor / Codex without plugins: `wavespeed skill install`
