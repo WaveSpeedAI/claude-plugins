@@ -34,6 +34,7 @@ Prefer an MCP server over a CLI skill? Use [`@wavespeed/mcp`](https://github.com
 - OpenCode: loads the installed skill as-is
 - DeepSeek Harness: [wavespeed-dsh-skill](https://github.com/WaveSpeedAI/wavespeed-dsh-skill)
 - Gemini CLI: [wavespeed-gemini-extension](https://github.com/WaveSpeedAI/wavespeed-gemini-extension)
+- Kimi Code CLI: [wavespeed-kimi-plugin](https://github.com/WaveSpeedAI/wavespeed-kimi-plugin) — `/plugins install https://github.com/WaveSpeedAI/wavespeed-kimi-plugin` (also reads `.claude/skills/` directly, so `wavespeed skill install` works as-is)
 
 ## License
 
