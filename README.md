@@ -26,7 +26,7 @@ Generate and edit AI media — image, video, audio, 3D — through the WaveSpeed
 
 Requires the CLI (`npm install -g @wavespeed/cli`) and a WaveSpeed API key (`wavespeed login`).
 
-Prefer an MCP server over a CLI skill? Use [`@wavespeed/mcp`](https://github.com/WaveSpeedAI/mcp-server) instead: `claude mcp add wavespeed -- npx -y @wavespeed/mcp`.
+Prefer an MCP server over a CLI skill? Use [`@wavespeed/mcp`](https://github.com/WaveSpeedAI/mcp-server) instead: `claude mcp add wavespeed -- npx -y @wavespeed/mcp@latest`.
 
 ## Also works in GitHub Copilot CLI, Factory Droid and Qwen Code
 
