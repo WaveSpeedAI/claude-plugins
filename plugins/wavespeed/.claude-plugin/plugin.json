@@ -8,6 +8,9 @@
   },
   "homepage": "https://wavespeed.ai",
   "privacyPolicyUrl": "https://wavespeed.ai/static/privacy",
+  "termsOfServiceUrl": "https://wavespeed.ai/static/terms",
+  "documentationUrl": "https://wavespeed.ai/docs/mcp",
+  "supportUrl": "https://github.com/WaveSpeedAI/claude-plugins/issues",
   "repository": "https://github.com/WaveSpeedAI/claude-plugins",
   "license": "MIT",
   "keywords": [
