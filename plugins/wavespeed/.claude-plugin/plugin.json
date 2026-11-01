@@ -7,6 +7,7 @@
     "email": "support@wavespeed.ai"
   },
   "homepage": "https://wavespeed.ai",
+  "privacyPolicyUrl": "https://wavespeed.ai/static/privacy",
   "repository": "https://github.com/WaveSpeedAI/claude-plugins",
   "license": "MIT",
   "keywords": [
