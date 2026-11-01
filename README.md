@@ -22,11 +22,14 @@ Official [WaveSpeed](https://wavespeed.ai) plugin marketplace for Claude Code.
 
 ### wavespeed
 
-Generate and edit AI media — image, video, audio, 3D — through the WaveSpeed platform via the open-source [`@wavespeed/cli`](https://github.com/WaveSpeedAI/wavespeed-cli). Every model on the platform is one `wavespeed run <model-id>` call; the skill teaches the agent the find → inspect → run pattern, `@path` local-file upload, and price checks before running.
+Generate and edit AI media — image, video, audio, 3D — on the WaveSpeed platform, through the hosted WaveSpeed MCP server and the open-source [`@wavespeed/cli`](https://github.com/WaveSpeedAI/wavespeed-cli). Every model on the platform is one `wavespeed run <model-id>` call; the skill teaches the agent the find → inspect → run pattern, `@path` local-file upload, and price checks before running.
 
-Requires the CLI (`npm install -g @wavespeed/cli`) and a WaveSpeed API key (`wavespeed login`).
+The plugin brings two things:
 
-Prefer an MCP server over a CLI skill? Use [`@wavespeed/mcp`](https://github.com/WaveSpeedAI/mcp-server) instead: `claude mcp add wavespeed -- npx -y @wavespeed/mcp@latest`.
+- **The hosted WaveSpeed MCP server** (`https://api.wavespeed.ai/mcp`), with tools to generate, edit and extend images and videos, run any model, check prices and balance. Nothing to install: after the plugin is installed, run `/mcp`, pick `wavespeed` and approve the connection on the WaveSpeed page that opens (it creates an API key named `MCP · …` that you can delete on the [API Keys](https://wavespeed.ai/accesskey) page to disconnect). The hosted server cannot read files on your computer; pass public URLs, or use the CLI below for local files.
+- **The `wavespeed` skill** for the open-source CLI, which also handles local files: requires `npm install -g @wavespeed/cli` and a WaveSpeed API key (`wavespeed login`).
+
+Prefer the local MCP server instead? [`@wavespeed/mcp`](https://github.com/WaveSpeedAI/mcp-server): `claude mcp add wavespeed -- npx -y @wavespeed/mcp@latest`.
 
 ## Also works in GitHub Copilot CLI, Factory Droid and Qwen Code
 

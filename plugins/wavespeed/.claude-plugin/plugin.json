@@ -1,7 +1,7 @@
 {
   "name": "wavespeed",
-  "description": "Generate and edit AI media (image, video, audio, 3D) via the WaveSpeed platform's open-source CLI: live catalog search, per-model schema introspection, local-file upload, price quotes before running.",
-  "version": "1.0.0",
+  "description": "Generate and edit AI media (image, video, audio, 3D) on WaveSpeed: the hosted WaveSpeed MCP server (sign in once in the browser) plus a skill for the open-source CLI with live catalog search, per-model schema introspection, local-file upload and price quotes before running.",
+  "version": "1.1.0",
   "author": {
     "name": "WaveSpeedAI",
     "email": "support@wavespeed.ai"
@@ -14,6 +14,7 @@
     "video-generation",
     "audio-generation",
     "wavespeed",
-    "media"
+    "media",
+    "mcp"
   ]
 }
