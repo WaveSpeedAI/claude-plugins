@@ -44,7 +44,8 @@ qwen extensions install WaveSpeedAI/claude-plugins:wavespeed
 ## Same skill, other agents
 
 - Claude Code / Cursor / Codex without plugins: `wavespeed skill install`
-- OpenCode: loads the installed skill as-is
+- Codex: [codex-plugins](https://github.com/WaveSpeedAI/codex-plugins)
+- OpenCode: [wavespeed-opencode](https://github.com/WaveSpeedAI/wavespeed-opencode)
 - DeepSeek Harness: [wavespeed-dsh-skill](https://github.com/WaveSpeedAI/wavespeed-dsh-skill)
 - Gemini CLI: [wavespeed-gemini-extension](https://github.com/WaveSpeedAI/wavespeed-gemini-extension)
 - Kimi Code CLI: [wavespeed-kimi-plugin](https://github.com/WaveSpeedAI/wavespeed-kimi-plugin) — `/plugins install https://github.com/WaveSpeedAI/wavespeed-kimi-plugin` (also reads `.claude/skills/` directly, so `wavespeed skill install` works as-is)
